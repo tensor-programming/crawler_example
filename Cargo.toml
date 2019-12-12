@@ -1,0 +1,13 @@
+[package]
+name = "crawler"
+version = "0.1.0"
+authors = ["tensor-programming <abeltensor@tensor-programming.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = "1.2.0"
+surf = "1.0.3"
+html5ever = "0.25.1"
+url = "2.1.0"
